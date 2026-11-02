@@ -1593,3 +1593,246 @@ h2 {
 .product-inquiry-content .button {
   margin-top: 10px;
 }
+
+/* Gallery page */
+.gallery-welcome {
+  min-height: 450px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: #183c2b;
+  color: #fff;
+}
+
+.gallery-welcome-image,
+.gallery-welcome-shade {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-welcome-image {
+  object-fit: cover;
+  object-position: center;
+}
+
+.gallery-welcome-shade {
+  background-color: rgba(15, 40, 26, 0.65);
+}
+
+.gallery-welcome-content {
+  position: relative;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.gallery-welcome-label {
+  color: #e6d9c2;
+}
+
+.gallery-welcome h1 {
+  margin: 15px 0;
+  font-size: clamp(42px, 7vw, 74px);
+}
+
+.gallery-welcome h1 em,
+.gallery-introduction h2 em {
+  color: #d3c09d;
+}
+
+.gallery-welcome-content > p:last-child {
+  max-width: 550px;
+}
+
+.gallery-photo-caption {
+  position: absolute;
+  right: 5%;
+  bottom: 12px;
+  color: #fff;
+  font-size: 11px;
+}
+
+.gallery-introduction {
+  background-color: #fff;
+}
+
+.gallery-introduction-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.gallery-introduction-layout > p {
+  max-width: 500px;
+  color: #626b61;
+}
+
+.farm-gallery-section {
+  background-color: #f1eee5;
+}
+
+.farm-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px 22px;
+  align-items: start;
+}
+
+.farm-gallery-item {
+  min-width: 0;
+  grid-column: span 4;
+  margin: 0;
+}
+
+.farm-gallery-item-wide {
+  grid-column: span 8;
+}
+
+.farm-gallery-item-tall {
+  grid-row: span 2;
+}
+
+.farm-gallery-photo {
+  height: 290px;
+  position: relative;
+  overflow: hidden;
+  background-color: #d8d8cf;
+}
+
+.farm-gallery-item-wide .farm-gallery-photo {
+  height: 360px;
+}
+
+.farm-gallery-item-tall .farm-gallery-photo {
+  height: 560px;
+}
+
+.farm-gallery-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 450ms ease;
+}
+
+.farm-gallery-item:hover .farm-gallery-photo img {
+  transform: scale(1.06);
+}
+
+.farm-gallery-index {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.92);
+  color: #183c2b;
+  font-size: 11px;
+}
+
+.farm-gallery-item figcaption {
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.farm-gallery-category {
+  margin: 0;
+  color: #8a714d;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.farm-gallery-caption {
+  color: #26352c;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 19px;
+}
+
+.gallery-coming-soon {
+  min-height: 230px;
+  padding: 28px;
+  grid-column: span 4;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #183c2b;
+  color: #fff;
+}
+
+.gallery-coming-mark {
+  margin-bottom: 10px;
+  color: #d3c09d;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 30px;
+}
+
+.gallery-coming-soon h2 {
+  margin: 5px 0 8px;
+  color: #fff;
+  font-size: 30px;
+}
+
+.gallery-coming-soon > p:last-child {
+  margin: 0;
+  color: #e1e6df;
+  font-size: 12px;
+}
+
+.gallery-invitation {
+  min-height: 370px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: #183c2b;
+  color: #fff;
+}
+
+.gallery-invitation-image,
+.gallery-invitation-shade {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-invitation-image {
+  object-fit: cover;
+}
+
+.gallery-invitation-shade {
+  background-color: rgba(15, 40, 26, 0.74);
+}
+
+.gallery-invitation-content {
+  position: relative;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.gallery-invitation h2 {
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.gallery-invitation h2 em {
+  color: #d3c09d;
+}
+
+.gallery-invitation-content > p:not(.eyebrow) {
+  max-width: 450px;
+  color: #e1e6df;
+}
+
+.gallery-invitation-content .button {
+  margin-top: 10px;
+}
