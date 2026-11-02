@@ -1,0 +1,385 @@
+@media (max-width: 800px) {
+  .header-inner {
+    padding: 15px 0;
+    flex-wrap: wrap;
+  }
+
+  .main-navigation {
+    order: 3;
+    width: 100%;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .intro-layout,
+  .why-layout {
+    gap: 30px;
+  }
+
+  .footer-main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .page-width,
+  .header-inner {
+    width: 92%;
+  }
+
+  .section-space {
+    padding: 55px 0;
+  }
+
+  .main-navigation {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px 18px;
+  }
+
+  .welcome-section {
+    min-height: 520px;
+  }
+
+  .welcome-content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .welcome-section h1 {
+    font-size: 48px;
+  }
+
+  .welcome-actions {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .welcome-caption {
+    font-size: 10px;
+  }
+
+  .intro-layout,
+  .why-layout,
+  .about-preview {
+    grid-template-columns: 1fr;
+  }
+
+  .plantation-feature {
+    grid-template-columns: 1fr;
+  }
+
+  .intro-layout,
+  .why-layout {
+    gap: 20px;
+  }
+
+  .intro-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-image-wrap {
+    min-height: 300px;
+  }
+
+  .about-panel-inner,
+  .plantation-card {
+    padding: 30px 20px;
+  }
+
+  .section-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .plantation-image {
+    min-height: 280px;
+  }
+
+  .plantation-values {
+    grid-template-columns: 1fr;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .product-image {
+    height: 250px;
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-brand-block {
+    grid-column: 1 / -1;
+  }
+
+  .footer-note {
+    display: none;
+  }
+
+  .footer-bottom {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 800px) {
+  .plantation-introduction-layout,
+  .cultivation-layout {
+    gap: 30px;
+  }
+
+  .mature-palms-layout,
+  .harvest-layout {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .plantation-welcome {
+    min-height: 400px;
+  }
+
+  .plantation-welcome-content {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+
+  .plantation-welcome h1 {
+    font-size: 42px;
+  }
+
+  .plantation-photo-caption,
+  .plantation-overlook-caption {
+    font-size: 9px;
+  }
+
+  .plantation-introduction-layout,
+  .mature-palms-layout {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .cultivation-layout {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 25px;
+  }
+
+  .harvest-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 25px;
+  }
+
+  .plantation-overlook {
+    min-height: 400px;
+  }
+
+  .plantation-overlook-content {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+
+  .mature-palms-photo,
+  .cultivation-photo,
+  .harvest-photo {
+    min-height: 300px;
+  }
+
+  .cultivation-section {
+    padding: 55px 0;
+  }
+
+  .plantation-products-invitation {
+    min-height: 350px;
+  }
+}
+
+@media (max-width: 800px) {
+  .products-introduction-layout,
+  .product-quality-layout {
+    gap: 30px;
+  }
+
+  .product-journey-layout {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .products-welcome {
+    min-height: 390px;
+  }
+
+  .products-welcome-content {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+
+  .products-welcome h1 {
+    font-size: 40px;
+  }
+
+  .products-photo-caption {
+    font-size: 9px;
+  }
+
+  .products-introduction-layout,
+  .product-quality-layout,
+  .product-journey-layout {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .product-range-heading {
+    margin-bottom: 25px;
+  }
+
+  .farm-product-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .farm-product-photo {
+    height: 250px;
+  }
+
+  .product-quality {
+    padding: 55px 0;
+  }
+
+  .product-journey-photo {
+    min-height: 300px;
+  }
+
+  .product-inquiry {
+    min-height: 350px;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .header-inner {
+    padding: 15px 0;
+    flex-wrap: wrap;
+  }
+
+  .main-navigation {
+    order: 3;
+    width: 100%;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .company-story-layout,
+  .farm-commitment-layout,
+  .values-layout {
+    gap: 30px;
+  }
+
+  .owner-message-content {
+    padding: 35px;
+  }
+
+  .footer-main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .page-width,
+  .header-inner {
+    width: 92%;
+  }
+
+  .section-space,
+  .values-section {
+    padding: 55px 0;
+  }
+
+  .main-navigation {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px 18px;
+  }
+
+  .about-welcome {
+    min-height: 380px;
+  }
+
+  .about-welcome-content {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+
+  .about-welcome h1 {
+    font-size: 42px;
+  }
+
+  .about-photo-caption {
+    font-size: 9px;
+  }
+
+  .company-story-layout,
+  .farm-commitment-layout,
+  .owner-story {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .farm-commitment-layout {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .purpose-cards,
+  .values-layout {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .company-story-photo,
+  .farm-commitment-photo,
+  .owner-photo {
+    min-height: 300px;
+  }
+
+  .owner-message-content {
+    padding: 45px 5%;
+  }
+
+  .purpose-card {
+    min-height: 240px;
+    padding: 25px;
+  }
+
+  .purpose-card h3 {
+    font-size: 26px;
+  }
+
+  .plantation-invitation {
+    min-height: 350px;
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-brand-block {
+    grid-column: 1 / -1;
+  }
+
+  .footer-note {
+    display: none;
+  }
+
+  .footer-bottom {
+    flex-wrap: wrap;
+  }
+}
