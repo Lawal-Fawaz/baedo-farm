@@ -345,6 +345,54 @@
   }
 }
 
+@media (max-width: 800px) {
+  .contact-main-layout {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-welcome {
+    min-height: 370px;
+  }
+
+  .contact-welcome-content {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+
+  .contact-welcome h1 {
+    font-size: 42px;
+  }
+
+  .contact-photo-caption {
+    font-size: 9px;
+  }
+
+  .contact-main-layout {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .inquiry-panel {
+    padding: 25px 20px;
+  }
+
+  .inquiry-form {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .inquiry-field:nth-child(3),
+  .inquiry-field:nth-child(4) {
+    grid-column: auto;
+  }
+
+  .contact-invitation {
+    min-height: 340px;
+  }
+}
+
 
 @media (max-width: 800px) {
   .header-inner {
